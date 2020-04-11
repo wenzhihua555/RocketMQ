@@ -1,0 +1,17 @@
+
+
+rocketmq:
+  nameSrv:
+    address: 192.168.7.15:9876
+  producer:
+    group:
+      test: rkmq-pro-group-one
+  consumer:
+    group:
+      test: rkmq-con-group-test
+  topic:
+    test: rkmq-topic-test
+  tag:
+    test: rkmq-tag-test
+server:
+  port: 8888
