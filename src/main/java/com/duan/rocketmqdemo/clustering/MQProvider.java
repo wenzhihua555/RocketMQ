@@ -14,7 +14,6 @@ import java.io.UnsupportedEncodingException;
 public class MQProvider {
     public static void main(String[] args) {
         try {
-
             DefaultMQProducer producer = new DefaultMQProducer("please_rename_unique_group_name");
             // 设置NameServer的地址
             producer.setNamesrvAddr("192.168.10.41:9876");

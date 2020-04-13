@@ -26,8 +26,6 @@ public class MQCustomerCopy {
 
         consumer.subscribe("TopicTest", "TagA || TagC || TagD");
 
-        consumer.setMessageModel(MessageModel.BROADCASTING);
-
         consumer.registerMessageListener(new MessageListenerOrderly() {
 
             Random random = new Random();
